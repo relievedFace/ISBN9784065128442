@@ -36,3 +36,11 @@ path="src/code_3-2.rs"
 [[bin]]
 name="code_3-3"
 path="src/code_3-3.rs"
+
+[[bin]]
+name="code_3-4"
+path="src/code_3-4.rs"
+
+[[bin]]
+name="code_3-6"
+path="src/code_3-6.rs"
