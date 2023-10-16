@@ -5,9 +5,7 @@ fn main() {
         n: usize,
     }
 
-    let mut count = 0;
-
-    for i in 0..n {
-        count += 1;
+    for i in (2..=n).step_by(2) {
+        println!("{}", i)
     }
 }
