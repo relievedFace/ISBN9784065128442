@@ -7,6 +7,7 @@ edition = "2021"
 
 [dependencies]
 proconio="*"
+itertools = "*"
 
 [[bin]]
 name="code_2-1"
@@ -19,3 +20,7 @@ path="src/code_2-2.rs"
 [[bin]]
 name="code_2-3"
 path="src/code_2-3.rs"
+
+[[bin]]
+name="code_2-4"
+path="src/code_2-4.rs"
