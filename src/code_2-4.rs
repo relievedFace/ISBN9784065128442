@@ -16,7 +16,7 @@ fn main() {
     let mut minimum_dist: f64 = 1000000000.0;
 
     for i in 0..n {
-        for j in 0..n {
+        for j in i + 1..n {
             let dist_i_j = calc_dist(x[i], y[i], x[j], y[j]);
 
             if dist_i_j < minimum_dist {
