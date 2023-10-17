@@ -64,3 +64,7 @@ path="src/code_4-7.rs"
 [[bin]]
 name="code_4-8"
 path="src/code_4-8.rs"
+
+[[bin]]
+name="code_4-9"
+path="src/code_4-9.rs"
