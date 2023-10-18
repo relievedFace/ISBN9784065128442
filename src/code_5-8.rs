@@ -9,7 +9,7 @@ where
     }
 }
 
-const INF: i32 = 1 << 29;
+const INF: usize = 1 << 29;
 
 fn main() {
     input! {
