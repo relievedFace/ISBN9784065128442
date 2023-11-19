@@ -24,6 +24,7 @@ impl Stack {
     fn push(&mut self, x: i32) {
         if self.is_full() {
             println!("error: stack is full.");
+
             return;
         }
 
@@ -33,9 +34,12 @@ impl Stack {
 
     fn pop(&mut self) -> Option<i32> {
         if self.is_empty() {
+            println!("error: stack is empty.");
+
             None
         } else {
             self.top -= 1;
+
             Some(self.st[self.top])
         }
     }
