@@ -27,6 +27,4 @@ fn main() {
     }
 
     insertion_sort(&mut a);
-
-    dbg!(&a);
 }
