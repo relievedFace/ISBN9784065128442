@@ -47,7 +47,7 @@ fn main() {
 
     let dist = bfs(&g, 0);
 
-    for v in 0..n {
-        println!("{}: {:?}", v, dist[v]);
+    for (v, dist_v) in dist.iter().enumerate() {
+        println!("{}: {:?}", v, dist_v);
     }
 }
