@@ -193,3 +193,7 @@ path="src/code_13-2.rs"
 [[bin]]
 name="code_13-3"
 path="src/code_13-3.rs"
+
+[[bin]]
+name="code_13-4"
+path="src/code_13-4.rs"
