@@ -1,5 +1,4 @@
 use proconio::input;
-use std::vec;
 
 const INF: i64 = 1 << 60;
 
